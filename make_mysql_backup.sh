@@ -13,7 +13,7 @@
 MAX_NUMBER_OF_BACKUPS=40
 DATABASE=smartdonation # your_db_name_here
 PATH_BACKUP_DIR=/tmp # /your/mysql/backup/path/here
-PATH_BACKUP_FILE_SQL=${PATH_BACKUP_DIR}/${DATABASE}.bak_`date +%y-%m-%d__%H%M`.sql
+PATH_BACKUP_FILE_SQL=${PATH_BACKUP_DIR}/${DATABASE}.bak__`date +%y-%m-%d_%H%M`.sql
 PATH_BACKUP_FILE_BZ2=${PATH_BACKUP_FILE_SQL}.bz2
 
 
